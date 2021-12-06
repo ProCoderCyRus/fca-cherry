@@ -67,6 +67,8 @@ module.exports = function(defaultFuncs, api, ctx) {
       case ":glowingheart:":
         reaction = "\uD83D\uDC97";
         break;
+      case ":time:":
+        reaction = "⏱"
       default:
         if (forceCustomReaction) {
           break; 
